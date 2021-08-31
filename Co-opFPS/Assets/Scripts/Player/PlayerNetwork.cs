@@ -5,6 +5,13 @@ using UnityEngine;
 public class PlayerNetwork : NetworkBehaviour
 {
     [SerializeField]private List<GameObject> guns = new List<GameObject>();
+
+    private void Start() 
+    {
+        string ID = "Player" + GetComponent<NetworkIdentity>().netId;
+        transform.name = ID;
+    }
+
     private void Update() 
     {
         if(isLocalPlayer)
