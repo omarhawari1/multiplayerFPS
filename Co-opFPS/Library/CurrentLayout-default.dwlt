@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 24380
+  controlID: 2566
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 24314
+  controlID: 2640
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 392}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 24272
+  controlID: 2567
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 271}
   m_MaxSize: {x: 14004, y: 10021}
   vertical: 0
-  controlID: 24273
+  controlID: 2568
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 904, y: 421}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -395,16 +395,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -452
-    m_HBaseRangeMax: 452
-    m_VBaseRangeMin: -210.5
-    m_VBaseRangeMax: 210.5
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -424,7 +424,7 @@ MonoBehaviour:
       y: 21
       width: 904
       height: 421
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.38981482, y: 0.38981482}
     m_Translation: {x: 452, y: 210.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -432,12 +432,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -452
-      y: -210.5
-      width: 904
-      height: 421
+      x: -1159.5249
+      y: -540
+      width: 2319.0498
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.38981482
   m_LastWindowPixelSize: {x: 904, y: 442}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.4039488, y: -8.432734, z: 7.606536}
+    m_Target: {x: -5.1315594, y: -3.9037056, z: -0.16881132}
     speed: 2
-    m_Value: {x: 2.4039488, y: -8.432734, z: 7.606536}
+    m_Value: {x: -5.1315594, y: -3.9037056, z: -0.16881132}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -529,13 +529,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.26003227, y: 0.51255614, z: -0.16634166, w: -0.8012508}
+    m_Target: {x: -0.1845656, y: 0.7710361, z: -0.25765422, w: -0.55231684}
     speed: 2
-    m_Value: {x: -0.26003227, y: 0.51255614, z: -0.16634166, w: -0.8012508}
+    m_Value: {x: -0.18456554, y: 0.7710358, z: -0.25765413, w: -0.55231667}
   m_Size:
-    m_Target: 7.1611547
+    m_Target: 5.4635005
     speed: 2
-    m_Value: 7.1611547
+    m_Value: 5.4635005
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -553,7 +553,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.026396377, y: 0.9712654, z: -0.19789667, w: -0.12955229}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -590,7 +590,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: dcf9ffff24fbffff
+      m_ExpandedIDs: 1edaffff9cdaffff56dcffffecdfffff6ae2ffffe8e2ffffeae2ffff0ae4ffff88e4ffff42e6ffff2aeaffff6ceaffffbeecffff3cedfffff6eeffff26f6ffffa4f6ffff62f8fffff2faffff20620000d8690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -652,23 +652,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Player
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 62
   m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
+  - Assets/Scripts/Player
+  m_LastFoldersGridSize: 62
   m_LastProjectPath: "C:\\Users\\\u05DE\u05E9\u05EA\u05DE\u05E9\\OneDrive\\Desktop\\projects\\unity
-    projects\\Co-opFPS\\UnityProject\\Co-opFPS"
+    projects\\multiplayerFPS\\Co-opFPS"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c3b0000
-    m_LastClickedID: 15196
-    m_ExpandedIDs: 000000005c3b000000ca9a3b
+    m_SelectedIDs: 6c5d0000
+    m_LastClickedID: 23916
+    m_ExpandedIDs: 000000007c4900007e49000080490000ba49000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 12}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -696,7 +696,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c3b000000ca9a3b
+    m_ExpandedIDs: 000000007c4900007e4900008049000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 62
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
 --- !u!114 &19

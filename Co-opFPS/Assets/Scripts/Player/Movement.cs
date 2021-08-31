@@ -42,8 +42,8 @@ public class Movement : NetworkBehaviour
         //inputs
         float MoveX = Input.GetAxis("Horizontal");
         float MoveZ = Input.GetAxis("Vertical");
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensX * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensY * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensX;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensY;
 
         //Move
         Vector3 move = transform.right * MoveX + transform.forward * MoveZ;
